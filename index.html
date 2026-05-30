@@ -55,6 +55,21 @@ header{background:var(--azul);color:#fff;padding:30px 0 26px;border-bottom:3px s
 .chip .n{opacity:.7;font-weight:700;margin-left:5px;font-size:12px}
 .chip.all{font-weight:600}
 
+/* mobile filter toggle (hidden on desktop) */
+.filter-toggle{display:none;width:100%;margin-top:11px;align-items:center;justify-content:space-between;
+  border:1.5px solid var(--line-strong);background:var(--surface);color:var(--tinta);
+  padding:11px 15px;border-radius:var(--radius);font-size:14px;font-weight:600;cursor:pointer;font-family:inherit}
+.filter-toggle .ft-left{display:flex;align-items:center;gap:9px}
+.filter-toggle .ft-cur{font-weight:500;color:var(--azul-osc)}
+.filter-toggle svg{transition:transform .2s;color:var(--gris)}
+.filter-toggle.open svg{transform:rotate(180deg)}
+@media(max-width:760px){
+  .filter-toggle{display:flex}
+  .chips{display:none;max-height:50vh;overflow-y:auto;-webkit-overflow-scrolling:touch;
+    padding-bottom:4px;margin-top:9px}
+  .chips.open{display:flex}
+}
+
 .meta{display:flex;justify-content:space-between;align-items:baseline;margin:20px 0 14px;flex-wrap:wrap;gap:8px}
 .count{font-size:14px;color:var(--tinta-soft)}
 .count b{color:var(--tinta);font-weight:600}
@@ -140,6 +155,14 @@ footer b{color:#fff;font-weight:600}
     <input id="q" type="search" placeholder="Buscar por medicamento, síntoma o vía (ej. morfina, náusea, vía SC)…" autocomplete="off">
     <button class="clr" id="clr" aria-label="Limpiar">✕</button>
   </div>
+  <button class="filter-toggle" id="filterToggle" aria-expanded="false">
+    <span class="ft-left">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z"/></svg>
+      Filtrar por síntoma
+    </span>
+    <span class="ft-cur" id="filterCur"></span>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m6 9 6 6 6-6"/></svg>
+  </button>
   <div class="chips" id="chips"></div>
 </div></div>
 
@@ -182,6 +205,15 @@ let activeSint=null, query='';
 
 const chipsEl=document.getElementById('chips'), gridEl=document.getElementById('grid');
 const countEl=document.getElementById('count'), qEl=document.getElementById('q'), clrEl=document.getElementById('clr');
+const ftBtn=document.getElementById('filterToggle'), ftCur=document.getElementById('filterCur');
+
+const isMobile=()=>window.matchMedia('(max-width:760px)').matches;
+function setFilterLabel(){ ftCur.textContent = activeSint ? activeSint : 'Todos'; }
+ftBtn.onclick=()=>{
+  const open=chipsEl.classList.toggle('open');
+  ftBtn.classList.toggle('open',open);
+  ftBtn.setAttribute('aria-expanded',open);
+};
 
 function buildChips(){
   let h=`<button class="chip all active" data-s="">Todos <span class="n">${DATA.length}</span></button>`;
@@ -190,8 +222,12 @@ function buildChips(){
   chipsEl.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{
     activeSint=c.dataset.s||null;
     chipsEl.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));
-    c.classList.add('active'); render();
+    c.classList.add('active');
+    setFilterLabel();
+    if(isMobile()){ chipsEl.classList.remove('open'); ftBtn.classList.remove('open'); ftBtn.setAttribute('aria-expanded',false); window.scrollTo({top:0}); }
+    render();
   });
+  setFilterLabel();
 }
 function norm(t){return (t||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');}
 function match(d){
