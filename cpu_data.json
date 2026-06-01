@@ -1,0 +1,937 @@
+[
+  {
+    "id": 1,
+    "nombre": "AMITRIPTILINA (Clorhidrato)",
+    "presentacion": "Comprimido 25mg",
+    "clasificacion": "Sistema nervioso y músculo estriado",
+    "sintomas": [
+      "Dolor neuropático"
+    ],
+    "via": "Oral",
+    "dosis": "25–100 mg/día. Iniciar en dosis baja y titular.",
+    "notas": [
+      "Su indicación en CPU es el dolor con componente neuropático y parestesias por lesión de nervios (no la depresión).",
+      "La OOTT recomienda EVITAR tricíclicos como amitriptilina para depresión en personas mayores o con enfermedad avanzada, por efectos autonómicos y sedantes.",
+      "Efectos anticolinérgicos: xerostomía, constipación, ortostatismo, visión borrosa, retención urinaria. Precaución en adulto mayor y dosis altas."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 12 (antidepresivos), p.51",
+      "OOTT CPU MINSAL 2022, manejo de la depresión, p.144"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 2,
+    "nombre": "BUPRENORFINA",
+    "presentacion": "Parche 35 mcg/h",
+    "clasificacion": "Analgésico Opioide",
+    "sintomas": [
+      "Dolor"
+    ],
+    "via": "Transdérmica",
+    "dosis": "Naïve: parche 5 µg/h cada 7 días, o 35 µg/h c/72–96 h según presentación. Reevaluar analgesia a 24–72 h; cambios de dosis con intervalos ≥72 h.",
+    "notas": [
+      "Opioide fuerte agonista parcial μ de alta afinidad; opción preferente en insuficiencia renal avanzada y en antecedente de trastorno por uso de opioides.",
+      "Inicio de acción lento: mantener analgesia previa al iniciar. No iniciar el parche en dolor agudo, inestable o no controlado.",
+      "Segura en insuficiencia renal (TFG <30) sin ajuste significativo; menos sedación y estreñimiento que morfina.",
+      "Para dolor irruptivo son válidos los rescates con morfina de acción rápida (no se ha observado antagonismo clínico relevante; se evita usar ambos a horario).",
+      "Al suspender, el efecto persiste 12–24 h por disociación lenta del receptor. Equivalencia referencial: 17,5–35 µg/h ≈ 30–60 mg de morfina oral/día (no extrapolar linealmente)."
+    ],
+    "refs": [
+      "Pucheu Moris X. Protocolo clínico: Opioides en Cuidados Paliativos, v1.0. Servicio de Alivio del Dolor y Cuidados Paliativos, Hospital Clínico Herminda Martín, Chillán, 2024.",
+      "OOTT CPU MINSAL 2022, Tabla 10 (parches transdérmicos), p.49"
+    ],
+    "opioide": true,
+    "controlado": false
+  },
+  {
+    "id": 3,
+    "nombre": "CELECOXIB",
+    "presentacion": "Comprimido 200mg",
+    "clasificacion": "Analgésicos y antiinflamatorios",
+    "sintomas": [
+      "Dolor"
+    ],
+    "via": "Oral",
+    "dosis": "200 mg/día.",
+    "notas": [
+      "AINE selectivo COX-2, coadyuvante analgésico.",
+      "Asociar AINE a opioides potencia el efecto analgésico.",
+      "Precaución cardiovascular, renal y gastrointestinal."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 9 (opioides potentes), p.48"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 4,
+    "nombre": "CLORPROMAZINA (Clorhidrato)",
+    "presentacion": "Comprimido 100mg",
+    "clasificacion": "Sistema nervioso y músculo estriado",
+    "sintomas": [
+      "Delirium / agitación",
+      "Náusea y vómito"
+    ],
+    "via": "Oral",
+    "dosis": "Titular según síntoma y respuesta.",
+    "notas": [
+      "Antipsicótico sedante; alternativa en delirium hiperactivo.",
+      "Vigilar hipotensión, sedación y efectos extrapiramidales."
+    ],
+    "refs": [
+      "OOTT Cuidados Paliativos Universales, MINSAL Chile 2022"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 5,
+    "nombre": "DEXAMETASONA",
+    "presentacion": "Ampollas 4 mg/ml",
+    "clasificacion": "Hormonas y metabolismo",
+    "sintomas": [
+      "Dolor",
+      "Náusea y vómito",
+      "Anorexia",
+      "Disnea",
+      "Edema / compresión"
+    ],
+    "via": "IM / EV / SC",
+    "dosis": "4–8 mg c/8–12 h. Uso oral, EV o subcutáneo.",
+    "notas": [
+      "Corticoide de amplio uso en CPU: compresión medular, tumores intracraneanos, distensión de cápsula hepática, disnea y obstrucción intestinal.",
+      "Usar como toma única o máx. 2 dosis respetando ciclo circadiano; evitar dosis nocturnas (insomnio).",
+      "Acompañar de protección gástrica en dosis altas o factores de riesgo. Monitorear glicemia en diabéticos. Vigilar candidiasis orofaríngea en uso prolongado."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 15 (corticoesteroides), p.52"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 6,
+    "nombre": "DEXAMETASONA",
+    "presentacion": "Comprimidos 4 mg",
+    "clasificacion": "Hormonas y metabolismo",
+    "sintomas": [
+      "Dolor",
+      "Náusea y vómito",
+      "Anorexia",
+      "Disnea"
+    ],
+    "via": "Oral",
+    "dosis": "4–8 mg c/8–12 h. Preferir toma matinal.",
+    "notas": [
+      "Corticoide multipropósito en CPU.",
+      "Toma única o máx. 2 dosis respetando ciclo circadiano; evitar dosis nocturnas.",
+      "Protección gástrica en dosis altas o riesgo de gastropatía. Monitorear glicemia."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 15 (corticoesteroides), p.52"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 7,
+    "nombre": "DOMPERIDONA",
+    "presentacion": "Solución oral para gotas 10mg/mL",
+    "clasificacion": "Tracto digestivo y metabolismo",
+    "sintomas": [
+      "Náusea y vómito"
+    ],
+    "via": "Oral",
+    "dosis": "10 mg c/6–8 h.",
+    "notas": [
+      "Procinético antiemético.",
+      "Uso preventivo con opioides debe ser transitorio (primeros 5–7 días) por desarrollo de tolerancia al efecto.",
+      "Precaución por prolongación de QT."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 18 (náuseas y vómitos), p.63"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 8,
+    "nombre": "DULOXETINA",
+    "presentacion": "Comprimido 30 mg",
+    "clasificacion": "Sistema nervioso y músculo estriado",
+    "sintomas": [
+      "Dolor neuropático"
+    ],
+    "via": "Oral",
+    "dosis": "30–60 mg/día. Iniciar en dosis baja.",
+    "notas": [
+      "Indicada en CPU para el dolor neuropático que no responde bien a opioides (post-mastectomía, dolor de miembro fantasma, polineuropatía diabética).",
+      "Tiene además efecto antidepresivo, pero su entrada en el arsenal CPU es como coadyuvante analgésico neuropático.",
+      "Iniciar en dosis baja por somnolencia y mareos; puede causar cefalea, sequedad bucal y constipación."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 12 (antidepresivos), p.51"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 9,
+    "nombre": "ENEMA EVACUANTE",
+    "presentacion": "Fosfato de Sodio Monobásico 19 g + Fosfato de Sodio Dibásico 7 g",
+    "clasificacion": "Tracto digestivo y metabolismo",
+    "sintomas": [
+      "Constipación"
+    ],
+    "via": "Rectal",
+    "dosis": "Según necesidad ante impactación o falta de respuesta a laxantes orales.",
+    "notas": [
+      "Reservar para constipación refractaria o impactación fecal."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 16 (laxantes), p.57"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 10,
+    "nombre": "ESCITALOPRAM",
+    "presentacion": "Comprimido 10 mg",
+    "clasificacion": "Antidepresivo",
+    "sintomas": [
+      "Ánimo / depresión",
+      "Ansiedad"
+    ],
+    "via": "Oral",
+    "dosis": "10 mg/día.",
+    "notas": [
+      "ISRS de primera línea para depresión en enfermedad avanzada (mismo grupo que citalopram, 20–40 mg); buena seguridad.",
+      "Acompañar siempre del manejo de síntomas no controlados e intervención psicosocial.",
+      "Vigilar prolongación de QT a dosis altas."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, manejo de la depresión, p.144"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 11,
+    "nombre": "ESCOPOLAMINA",
+    "presentacion": "Ampolla 20 mg/ml",
+    "clasificacion": "Tracto digestivo y metabolismo",
+    "sintomas": [
+      "Secreciones (estertores)",
+      "Náusea y vómito"
+    ],
+    "via": "IM / EV / SC",
+    "dosis": "N-butilescopolamina 20–60 mg/día según cuantía de secreciones.",
+    "notas": [
+      "Antisecretor clave para estertores en fin de vida; iniciar precozmente.",
+      "También útil en obstrucción/sub-oclusión intestinal maligna."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, manejo de disnea, p.57",
+      "OOTT CPU MINSAL 2022, manejo de secreciones, p.57"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 12,
+    "nombre": "FUROSEMIDA",
+    "presentacion": "Solución inyectable 20mg/mL",
+    "clasificacion": "Cardiovascular",
+    "sintomas": [
+      "Disnea",
+      "Edema / compresión"
+    ],
+    "via": "EV / IM",
+    "dosis": "Según respuesta clínica.",
+    "notas": [
+      "Manejo de congestión y edema sintomático.",
+      "Vigilar función renal y electrolitos."
+    ],
+    "refs": [
+      "OOTT Cuidados Paliativos Universales, MINSAL Chile 2022"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 13,
+    "nombre": "HALOPERIDOL (Decanoato)",
+    "presentacion": "Comprimido 1mg y/o 5mg",
+    "clasificacion": "Sistema nervioso y músculo estriado",
+    "sintomas": [
+      "Delirium / agitación",
+      "Náusea y vómito"
+    ],
+    "via": "Oral",
+    "dosis": "1–5 mg c/8–12–24 h (náusea/vómito).",
+    "notas": [
+      "Antipsicótico de elección en delirium y antiemético en CPU.",
+      "Evitar asociar metoclopramida con haloperidol.",
+      "Atención a interacción con carbamazepina."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 18 (náuseas y vómitos), p.63"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 14,
+    "nombre": "HALOPERIDOL (Decanoato)",
+    "presentacion": "Solución inyectable 5mg/mL",
+    "clasificacion": "Sistema nervioso y músculo estriado",
+    "sintomas": [
+      "Delirium / agitación",
+      "Náusea y vómito",
+      "Sedación paliativa"
+    ],
+    "via": "IM / EV / SC",
+    "dosis": "Náusea/vómito: 1–5 mg c/8–24 h. Sedación/delirium: inducción 2,5–10 mg c/8 h; infusión continua 1–5 mg/h (máx. 300 mg/día).",
+    "notas": [
+      "De selección para delirium por vía SC o EV; se puede mezclar con casi todos los fármacos.",
+      "Ampolla 5 mg/mL."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 18 (náuseas y vómitos), p.63",
+      "OOTT CPU MINSAL 2022, Tabla 24 (haloperidol en sedación), p.86"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 15,
+    "nombre": "KETOROLACO",
+    "presentacion": "Solución inyectable 30 mg/mL",
+    "clasificacion": "Analgésicos y antiinflamatorios",
+    "sintomas": [
+      "Dolor"
+    ],
+    "via": "IM / EV",
+    "dosis": "30 mg. Uso por tiempo breve.",
+    "notas": [
+      "AINE potente coadyuvante; asociar a opioides potencia analgesia.",
+      "Riesgo gastrointestinal y renal: uso acotado."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 9 (opioides potentes), p.48"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 16,
+    "nombre": "KETOROLACO",
+    "presentacion": "Comprimido 10 mg y/o 30mg",
+    "clasificacion": "Analgésicos y antiinflamatorios",
+    "sintomas": [
+      "Dolor"
+    ],
+    "via": "Oral",
+    "dosis": "10 mg c/6–8 h. Uso por tiempo breve.",
+    "notas": [
+      "AINE coadyuvante. Uso acotado por riesgo GI/renal."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 9 (opioides potentes), p.48"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 17,
+    "nombre": "LACTULOSA",
+    "presentacion": "Solución oral 65%",
+    "clasificacion": "Tracto digestivo y metabolismo",
+    "sintomas": [
+      "Constipación"
+    ],
+    "via": "Oral",
+    "dosis": "15–45 mL/día fraccionado en 1–2 tomas, de preferencia en la noche. Latencia 1–2 días.",
+    "notas": [
+      "Laxante osmótico de primera línea; con opioides apoyar SIEMPRE con laxante durante todo el tratamiento.",
+      "Produce heces más blandas."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 16 (laxantes), p.57",
+      "OOTT CPU MINSAL 2022, Tabla 9 (opioides potentes), p.48"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 18,
+    "nombre": "MELATONINA",
+    "presentacion": "Comprimido 3mg",
+    "clasificacion": "Sistema nervioso y músculo estriado",
+    "sintomas": [
+      "Insomnio"
+    ],
+    "via": "Oral",
+    "dosis": "3 mg en la noche.",
+    "notas": [
+      "Inicio de tratamiento de trastornos del sueño en adultos y niños."
+    ],
+    "refs": [
+      "OOTT Cuidados Paliativos Universales, MINSAL Chile 2022"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 19,
+    "nombre": "METAMIZOL (Sódico)",
+    "presentacion": "Comprimido 300mg",
+    "clasificacion": "Analgésicos y antiinflamatorios",
+    "sintomas": [
+      "Dolor"
+    ],
+    "via": "Oral",
+    "dosis": "300 mg–1 g c/6–8 h.",
+    "notas": [
+      "Analgésico/antipirético no opioide.",
+      "Vigilar discrasias sanguíneas (agranulocitosis, infrecuente)."
+    ],
+    "refs": [
+      "OOTT Cuidados Paliativos Universales, MINSAL Chile 2022"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 20,
+    "nombre": "METAMIZOL (Sódico)",
+    "presentacion": "Solución inyectable 0,5g/mL",
+    "clasificacion": "Analgésicos y antiinflamatorios",
+    "sintomas": [
+      "Dolor"
+    ],
+    "via": "IM / EV",
+    "dosis": "1–2 g c/6–8 h.",
+    "notas": [
+      "Analgésico parenteral potente. Administración EV lenta."
+    ],
+    "refs": [
+      "OOTT Cuidados Paliativos Universales, MINSAL Chile 2022"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 21,
+    "nombre": "METOCLOPRAMIDA",
+    "presentacion": "Comprimido 10mg",
+    "clasificacion": "Tracto digestivo y metabolismo",
+    "sintomas": [
+      "Náusea y vómito"
+    ],
+    "via": "Oral",
+    "dosis": "10 mg c/6–8 h.",
+    "notas": [
+      "Procinético antiemético; privilegiar vía oral en uso preventivo.",
+      "Uso preventivo con opioides transitorio (5–7 días).",
+      "No asociar con haloperidol. Riesgo de efectos extrapiramidales."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 18 (náuseas y vómitos), p.63"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 22,
+    "nombre": "METOCLOPRAMIDA",
+    "presentacion": "Solución inyectable 10 mg/2 mL",
+    "clasificacion": "Tracto digestivo y metabolismo",
+    "sintomas": [
+      "Náusea y vómito"
+    ],
+    "via": "IM / EV / SC",
+    "dosis": "10 mg c/6–8 h.",
+    "notas": [
+      "Rotar a vía SC si no tolera vía oral.",
+      "No asociar con haloperidol."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 18 (náuseas y vómitos), p.63"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 23,
+    "nombre": "MIDAZOLAM",
+    "presentacion": "Solución inyectable 5mg/mL",
+    "clasificacion": "Sistema nervioso y músculo estriado",
+    "sintomas": [
+      "Sedación paliativa"
+    ],
+    "via": "SC (de elección) / EV",
+    "dosis": "Inducción SC: 2,5–5 mg c/4 h. BIC SC: 15–30 mg/24 h. Rescate: 2,5–5 mg o 1/6 de la dosis diaria. EV en urgencia: 1,5–3,5 mg en bolo lento c/5 min hasta sedación objetivo. Máx. 240 mg/día.",
+    "notas": [
+      "Fármaco de primera línea en sedación paliativa ante síntoma refractario.",
+      "Vía de elección subcutánea; EV reservada a urgencias (asfixia, hemorragia masiva) o cuando ya existe vía venosa permeable.",
+      "Las dosis dependen del nivel de conciencia basal, la fragilidad de la persona y el antecedente de resistencia a benzodiacepinas.",
+      "Si tras la dosis de inducción persiste agitación o el síntoma refractario, administrar dosis de rescate."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 23 (midazolam en sedación), p.86"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 24,
+    "nombre": "MIRTAZAPINA",
+    "presentacion": "Comprimido 15 y/o 30mg",
+    "clasificacion": "Sistema nervioso y músculo estriado",
+    "sintomas": [
+      "Ánimo / depresión",
+      "Insomnio",
+      "Anorexia"
+    ],
+    "via": "Oral",
+    "dosis": "15–30 mg en la noche.",
+    "notas": [
+      "Antidepresivo útil cuando coexisten depresión, insomnio y baja de peso/anorexia.",
+      "Su perfil sedante y orexígeno la hace conveniente en este escenario combinado.",
+      "Administrar en la noche; rango 15–30 mg."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 12 (antidepresivos), p.51",
+      "OOTT CPU MINSAL 2022, manejo de la depresión, p.144"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 25,
+    "nombre": "MORFINA",
+    "presentacion": "Solución inyectable 10mg/mL",
+    "clasificacion": "Analgésico Opioide",
+    "sintomas": [
+      "Dolor",
+      "Disnea"
+    ],
+    "via": "EV / SC",
+    "dosis": "Naïve: 2,5–5 mg SC/EV titulando; en adulto mayor o frágil iniciar al 50% (1,25–2,5 mg). Rescate 10–15% de la dosis diaria total, hasta c/1 h. Relación oral:parenteral ≈ 2–3:1. Sin dosis techo. Disnea: dosis bajas regulares.",
+    "notas": [
+      "Opioide fuerte de referencia y patrón para el cálculo de equivalentes de morfina oral (EMO). Primera línea salvo contraindicación.",
+      "Para uso SC, diluir la ampolla en suero fisiológico para facilitar titulación domiciliaria. En disnea, dosis bajas regulares son efectivas y seguras.",
+      "Insuficiencia renal (TFG <30): se acumulan metabolitos M3G/M6G → neurotoxicidad, sedación, mioclonías. Reducir dosis y espaciar; preferir fentanilo, buprenorfina o metadona.",
+      "Insuficiencia hepática: reducir dosis e intervalo; vigilar encefalopatía.",
+      "Estreñimiento universal y sin tolerancia: iniciar profilaxis con laxante el mismo día. Náuseas frecuentes al inicio (~30%).",
+      "Depresión respiratoria: rara con titulación adecuada. Ante FR <8/min, miosis puntiforme o deterioro de conciencia, suspender y administrar naloxona titulada (0,04–0,1 mg EV en bolos), evitando reversión brusca."
+    ],
+    "refs": [
+      "Pucheu Moris X. Protocolo clínico: Opioides en Cuidados Paliativos, v1.0. Servicio de Alivio del Dolor y Cuidados Paliativos, Hospital Clínico Herminda Martín, Chillán, 2024.",
+      "OOTT CPU MINSAL 2022, Tabla 9 (opioides potentes), p.48"
+    ],
+    "opioide": true,
+    "controlado": false
+  },
+  {
+    "id": 26,
+    "nombre": "MORFINA",
+    "presentacion": "Solucion gotas 20 mg/ml",
+    "clasificacion": "Analgésico Opioide",
+    "sintomas": [
+      "Dolor",
+      "Disnea"
+    ],
+    "via": "Oral",
+    "dosis": "Naïve: 2,5–5 mg VO c/4 h (gotas al 2%: 20 mg = 16 gotas = 1 cc). Adulto mayor: iniciar al 50%. Rescate 10–15% de la dosis diaria total c/1 h s/p. Reevaluar a 24 h y ajustar al alza 30–50% si es necesario.",
+    "notas": [
+      "Morfina oral de liberación inmediata: primera línea para titulación y rescate del dolor irruptivo. Una vez estable, convertir a liberación prolongada.",
+      "Si se requieren >3 rescates/día de forma sostenida, sumar a la dosis basal y reajustar.",
+      "Insuficiencia renal: acumulación de metabolitos; reducir dosis y espaciar. Iniciar al 50% en adulto mayor/fragilidad.",
+      "Profilaxis de estreñimiento desde el primer día; prevenir náuseas iniciales."
+    ],
+    "refs": [
+      "Pucheu Moris X. Protocolo clínico: Opioides en Cuidados Paliativos, v1.0. Servicio de Alivio del Dolor y Cuidados Paliativos, Hospital Clínico Herminda Martín, Chillán, 2024.",
+      "OOTT CPU MINSAL 2022, Tabla 9 (opioides potentes), p.48"
+    ],
+    "opioide": true,
+    "controlado": false
+  },
+  {
+    "id": 27,
+    "nombre": "MORFINA",
+    "presentacion": "Comprimido 30 mg Liberación Prolongada",
+    "clasificacion": "Analgésico Opioide",
+    "sintomas": [
+      "Dolor"
+    ],
+    "via": "Oral",
+    "dosis": "Comprimido LP 30 mg c/12 h como dosis basal, una vez titulada la dosis diaria con morfina de liberación inmediata. Sin dosis techo.",
+    "notas": [
+      "Morfina oral de liberación prolongada para la dosis basal pautada por reloj (no por demanda).",
+      "Mantener SIEMPRE rescates con morfina de liberación inmediata (10–15% de la dosis diaria total).",
+      "Insuficiencia renal: precaución por acumulación de metabolitos; preferir alternativas si TFG <30.",
+      "Profilaxis de estreñimiento sistemática durante todo el tratamiento."
+    ],
+    "refs": [
+      "Pucheu Moris X. Protocolo clínico: Opioides en Cuidados Paliativos, v1.0. Servicio de Alivio del Dolor y Cuidados Paliativos, Hospital Clínico Herminda Martín, Chillán, 2024.",
+      "OOTT CPU MINSAL 2022, Tabla 9 (opioides potentes), p.48"
+    ],
+    "opioide": true,
+    "controlado": false
+  },
+  {
+    "id": 28,
+    "nombre": "NISTATINA",
+    "presentacion": "Suspensión oral 100.000 UI/mL",
+    "clasificacion": "Antifúngicos",
+    "sintomas": [
+      "Cuidado de boca"
+    ],
+    "via": "Oral (tópica)",
+    "dosis": "Según indicación (enjuague/deglución).",
+    "notas": [
+      "Candidiasis orofaríngea, frecuente con corticoides."
+    ],
+    "refs": [
+      "OOTT Cuidados Paliativos Universales, MINSAL Chile 2022"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 29,
+    "nombre": "OMEPRAZOL",
+    "presentacion": "Cápsula c/gránulos c/recubrimiento entérico 20mg",
+    "clasificacion": "Tracto digestivo y metabolismo",
+    "sintomas": [
+      "Protección gástrica"
+    ],
+    "via": "Oral",
+    "dosis": "20 mg/día.",
+    "notas": [
+      "Protección gástrica al usar AINE o corticoides en dosis altas o factores de riesgo de gastropatía."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 15 (corticoesteroides), p.52"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 30,
+    "nombre": "ONDASENTRON",
+    "presentacion": "Comprimidos 4 y/o 8 mg",
+    "clasificacion": "Tracto digestivo y metabolismo",
+    "sintomas": [
+      "Náusea y vómito"
+    ],
+    "via": "Oral",
+    "dosis": "4–8 mg c/8 h.",
+    "notas": [
+      "Antiemético potente para náusea/vómito refractario.",
+      "Vigilar constipación (sinergia con opioides) y prolongación de QT."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 18 (náuseas y vómitos), p.63"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 31,
+    "nombre": "ONDASENTRON",
+    "presentacion": "ampollas 4 mg /2 ml y/o 8 mg/4 mL",
+    "clasificacion": "Tracto digestivo y metabolismo",
+    "sintomas": [
+      "Náusea y vómito"
+    ],
+    "via": "EV / SC / IM",
+    "dosis": "4–8 mg c/8 h.",
+    "notas": [
+      "Antiemético parenteral; rotar desde vía oral si no tolera.",
+      "Vigilar constipación y QT."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 18 (náuseas y vómitos), p.63"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 32,
+    "nombre": "PICOSULFATO DE SODIO",
+    "presentacion": "Frasco gota 7,5 mg/ml",
+    "clasificacion": "Tracto digestivo y metabolismo",
+    "sintomas": [
+      "Constipación"
+    ],
+    "via": "Oral",
+    "dosis": "5–15 mg/día (≈20 gotas = 1 mL), de preferencia con la cena. Latencia 2–6 h.",
+    "notas": [
+      "Laxante estimulante; asociar a osmótico según necesidad.",
+      "Puede causar dolor abdominal tipo cólico."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 16 (laxantes), p.57"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 33,
+    "nombre": "POLIETILENGLICOL (PEG)",
+    "presentacion": "Polvo para suspensión oral",
+    "clasificacion": "Tracto digestivo y metabolismo",
+    "sintomas": [
+      "Constipación"
+    ],
+    "via": "Oral",
+    "dosis": "17 g (1 sobre) al día. Dosis altas 30–60 g/día.",
+    "notas": [
+      "Laxante osmótico (macrogol) de primera línea; produce heces más blandas.",
+      "Con opioides, apoyar siempre durante todo el tratamiento."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 16 (laxantes), p.57"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 34,
+    "nombre": "PREGABALINA",
+    "presentacion": "Comprimido 75 mg",
+    "clasificacion": "Sistema nervioso y músculo estriado",
+    "sintomas": [
+      "Dolor neuropático"
+    ],
+    "via": "Oral",
+    "dosis": "75–600 mg/día. Iniciar escalonado con mínima dosis efectiva.",
+    "notas": [
+      "Indicada en dolor neuropático puro o mixto.",
+      "Ajustar dosis en adulto mayor y en falla renal. Puede causar somnolencia y mareos; efecto analgésico tras varios días de uso."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, Tabla 13 (anticonvulsivantes), p.51"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 35,
+    "nombre": "QUETIAPINA*",
+    "presentacion": "Comprimido 25mg",
+    "clasificacion": "Sistema nervioso y músculo estriado",
+    "sintomas": [
+      "Delirium / agitación",
+      "Insomnio",
+      "Ansiedad"
+    ],
+    "via": "Oral",
+    "dosis": "25 mg/noche; titular.",
+    "notas": [
+      "Antipsicótico sedante; continuidad psiquiátrica y delirium en adulto mayor.",
+      "Vigilar sedación e hipotensión."
+    ],
+    "refs": [
+      "OOTT Cuidados Paliativos Universales, MINSAL Chile 2022"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 36,
+    "nombre": "QUETIAPINA*",
+    "presentacion": "Comprimido 100mg",
+    "clasificacion": "Sistema nervioso y músculo estriado",
+    "sintomas": [
+      "Delirium / agitación"
+    ],
+    "via": "Oral",
+    "dosis": "Según continuidad de tratamiento; titular.",
+    "notas": [
+      "Continuidad de tratamiento psiquiátrico crónico compensado."
+    ],
+    "refs": [
+      "OOTT Cuidados Paliativos Universales, MINSAL Chile 2022"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 37,
+    "nombre": "RISPERIDONA*",
+    "presentacion": "Comprimido 1mg y/o 3mg",
+    "clasificacion": "Sistema nervioso y músculo estriado",
+    "sintomas": [
+      "Delirium / agitación"
+    ],
+    "via": "Oral",
+    "dosis": "0,5–1 mg/día; titular.",
+    "notas": [
+      "Antipsicótico en delirium y continuidad psiquiátrica.",
+      "Vigilar efectos extrapiramidales."
+    ],
+    "refs": [
+      "OOTT Cuidados Paliativos Universales, MINSAL Chile 2022"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 38,
+    "nombre": "RISPERIDONA*",
+    "presentacion": "Frasco gotas 1mg/ml",
+    "clasificacion": "Sistema nervioso y músculo estriado",
+    "sintomas": [
+      "Delirium / agitación"
+    ],
+    "via": "Oral",
+    "dosis": "Titular en gotas según respuesta.",
+    "notas": [
+      "Forma líquida para titulación fina o intolerancia a sólidos."
+    ],
+    "refs": [
+      "OOTT Cuidados Paliativos Universales, MINSAL Chile 2022"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 39,
+    "nombre": "SERTRALINA",
+    "presentacion": "Comprimido 50mg",
+    "clasificacion": "Sistema nervioso y músculo estriado",
+    "sintomas": [
+      "Ánimo / depresión",
+      "Ansiedad"
+    ],
+    "via": "Oral",
+    "dosis": "50–200 mg/día.",
+    "notas": [
+      "ISRS de primera línea para depresión en personas con enfermedad avanzada; tan efectivo como los tricíclicos y con mayor seguridad.",
+      "Primer paso del manejo de la depresión en CPU: aliviar los síntomas no controlados (en particular el dolor) y ofrecer intervención psicosocial.",
+      "Rango habitual 50–200 mg/día."
+    ],
+    "refs": [
+      "OOTT CPU MINSAL 2022, manejo de la depresión, p.144"
+    ],
+    "opioide": false,
+    "controlado": false
+  },
+  {
+    "id": 40,
+    "nombre": "TRAMADOL (Clorhidrato)",
+    "presentacion": "Comprimido 50mg",
+    "clasificacion": "Analgésico Opioide",
+    "sintomas": [
+      "Dolor"
+    ],
+    "via": "Oral",
+    "dosis": "Inicio: 25 mg c/8 h. Titular a 50 mg c/6–8 h. Máx. 400 mg/día (300 mg/día en >75 años).",
+    "notas": [
+      "Opioide débil con techo terapéutico; útil en dolor leve a moderado y en dolor mixto con componente neuropático leve por su efecto noradrenérgico.",
+      "Insuficiencia renal (TFG <30): reducir 50% o evitar, espaciar a c/12 h. Insuficiencia hepática Child B: reducir; Child C: evitar.",
+      "Adulto mayor/fragilidad: iniciar al 50%; vigilar sedación, caídas, delirium e hiponatremia.",
+      "Interacciones clave: riesgo de síndrome serotoninérgico con ISRS/IRSN/IMAO/triptanes/linezolid. Inhibidores potentes del CYP2D6 (paroxetina, fluoxetina, bupropión) reducen su eficacia. Sumatorio depresor con benzodiacepinas.",
+      "Riesgo de convulsiones (baja el umbral): evitar en epilepsia mal controlada. Su techo lo hace inadecuado para dolor severo."
+    ],
+    "refs": [
+      "Pucheu Moris X. Protocolo clínico: Opioides en Cuidados Paliativos, v1.0. Servicio de Alivio del Dolor y Cuidados Paliativos, Hospital Clínico Herminda Martín, Chillán, 2024.",
+      "OOTT CPU MINSAL 2022, Tabla 8 (opioides débiles), p.47"
+    ],
+    "opioide": true,
+    "controlado": false
+  },
+  {
+    "id": 41,
+    "nombre": "TRAMADOL (Clorhidrato)",
+    "presentacion": "Solución oral para gotas 100mg/mL",
+    "clasificacion": "Analgésico Opioide",
+    "sintomas": [
+      "Dolor"
+    ],
+    "via": "Oral",
+    "dosis": "Inicio: 25 mg c/8 h en gotas; titular a 50 mg c/6–8 h. Máx. 400 mg/día (300 mg/día en >75 años).",
+    "notas": [
+      "Opioide débil, forma líquida para titulación fina e inicio a dosis baja.",
+      "Insuficiencia renal (TFG <30): reducir 50% o evitar. Adulto mayor: iniciar al 50%.",
+      "Riesgo serotoninérgico con otros serotoninérgicos; riesgo de convulsiones (no usar en epilepsia mal controlada)."
+    ],
+    "refs": [
+      "Pucheu Moris X. Protocolo clínico: Opioides en Cuidados Paliativos, v1.0. Servicio de Alivio del Dolor y Cuidados Paliativos, Hospital Clínico Herminda Martín, Chillán, 2024.",
+      "OOTT CPU MINSAL 2022, Tabla 8 (opioides débiles), p.47"
+    ],
+    "opioide": true,
+    "controlado": false
+  },
+  {
+    "id": 42,
+    "nombre": "TRAMADOL (Clorhidrato)",
+    "presentacion": "Comprimido liberación prolongada 100 mg",
+    "clasificacion": "Analgésico Opioide",
+    "sintomas": [
+      "Dolor"
+    ],
+    "via": "Oral",
+    "dosis": "Una vez estable con liberación inmediata, considerar LP 50–100 mg c/12 h. Máx. 400 mg/día (300 mg/día en >75 años).",
+    "notas": [
+      "Opioide débil de liberación prolongada para la fase de mantención, tras controlar el dolor con formas de acción rápida.",
+      "Insuficiencia renal/hepática: ajustar como en las demás formas; precaución en adulto mayor.",
+      "Mantener vigilancia de riesgo serotoninérgico y convulsivo. Techo terapéutico: no apto para dolor severo."
+    ],
+    "refs": [
+      "Pucheu Moris X. Protocolo clínico: Opioides en Cuidados Paliativos, v1.0. Servicio de Alivio del Dolor y Cuidados Paliativos, Hospital Clínico Herminda Martín, Chillán, 2024.",
+      "OOTT CPU MINSAL 2022, Tabla 8 (opioides débiles), p.47"
+    ],
+    "opioide": true,
+    "controlado": false
+  },
+  {
+    "id": 43,
+    "nombre": "TRAMADOL / PARACETAMOL",
+    "presentacion": "Comprimido 325/37.5 mg",
+    "clasificacion": "Analgésico Opioide",
+    "sintomas": [
+      "Dolor"
+    ],
+    "via": "Oral",
+    "dosis": "37,5 mg tramadol / 325 mg paracetamol, 1 comprimido c/6–8 h. Respetar el tope de tramadol (400 mg/día; 300 mg/día en >75 años) y la dosis máxima de paracetamol.",
+    "notas": [
+      "Combinación para dolor leve a moderado; aporta el efecto del tramadol (opioide débil) más paracetamol.",
+      "Mismas precauciones del tramadol: riesgo serotoninérgico, convulsivo, y ajuste en insuficiencia renal/hepática y adulto mayor.",
+      "Vigilar la dosis acumulada de paracetamol; con warfarina y paracetamol ≥2 g/día de forma crónica, monitorizar INR."
+    ],
+    "refs": [
+      "Pucheu Moris X. Protocolo clínico: Opioides en Cuidados Paliativos, v1.0. Servicio de Alivio del Dolor y Cuidados Paliativos, Hospital Clínico Herminda Martín, Chillán, 2024.",
+      "OOTT CPU MINSAL 2022, Tabla 8 (opioides débiles), p.47"
+    ],
+    "opioide": true,
+    "controlado": false
+  },
+  {
+    "id": 44,
+    "nombre": "ZOPICLONA",
+    "presentacion": "Comprimido 7,5 mg",
+    "clasificacion": "Inductor del sueño",
+    "sintomas": [
+      "Insomnio"
+    ],
+    "via": "Oral",
+    "dosis": "7,5 mg en la noche.",
+    "notas": [
+      "Inductor del sueño; uso por tiempo acotado (riesgo de dependencia)."
+    ],
+    "refs": [
+      "OOTT Cuidados Paliativos Universales, MINSAL Chile 2022"
+    ],
+    "opioide": false,
+    "controlado": false
+  }
+]

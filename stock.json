@@ -1,0 +1,222 @@
+{
+  "1": {
+    "nombre": "AMITRIPTILINA (Clorhidrato)",
+    "presentacion": "Comprimido 25mg",
+    "disponible": true
+  },
+  "2": {
+    "nombre": "BUPRENORFINA",
+    "presentacion": "Parche 35 mcg/h",
+    "disponible": true
+  },
+  "3": {
+    "nombre": "CELECOXIB",
+    "presentacion": "Comprimido 200mg",
+    "disponible": true
+  },
+  "4": {
+    "nombre": "CLORPROMAZINA (Clorhidrato)",
+    "presentacion": "Comprimido 100mg",
+    "disponible": true
+  },
+  "5": {
+    "nombre": "DEXAMETASONA",
+    "presentacion": "Ampollas 4 mg/ml",
+    "disponible": true
+  },
+  "6": {
+    "nombre": "DEXAMETASONA",
+    "presentacion": "Comprimidos 4 mg",
+    "disponible": true
+  },
+  "7": {
+    "nombre": "DOMPERIDONA",
+    "presentacion": "Solución oral para gotas 10mg/mL",
+    "disponible": true
+  },
+  "8": {
+    "nombre": "DULOXETINA",
+    "presentacion": "Comprimido 30 mg",
+    "disponible": true
+  },
+  "9": {
+    "nombre": "ENEMA EVACUANTE",
+    "presentacion": "Fosfato de Sodio Monobásico 19 g + Fosfato de Sodio Dibásico 7 g",
+    "disponible": true
+  },
+  "10": {
+    "nombre": "ESCITALOPRAM",
+    "presentacion": "Comprimido 10 mg",
+    "disponible": true
+  },
+  "11": {
+    "nombre": "ESCOPOLAMINA",
+    "presentacion": "Ampolla 20 mg/ml",
+    "disponible": true
+  },
+  "12": {
+    "nombre": "FUROSEMIDA",
+    "presentacion": "Solución inyectable 20mg/mL",
+    "disponible": true
+  },
+  "13": {
+    "nombre": "HALOPERIDOL (Decanoato)",
+    "presentacion": "Comprimido 1mg y/o 5mg",
+    "disponible": true
+  },
+  "14": {
+    "nombre": "HALOPERIDOL (Decanoato)",
+    "presentacion": "Solución inyectable 5mg/mL",
+    "disponible": true
+  },
+  "15": {
+    "nombre": "KETOROLACO",
+    "presentacion": "Solución inyectable 30 mg/mL",
+    "disponible": true
+  },
+  "16": {
+    "nombre": "KETOROLACO",
+    "presentacion": "Comprimido 10 mg y/o 30mg",
+    "disponible": true
+  },
+  "17": {
+    "nombre": "LACTULOSA",
+    "presentacion": "Solución oral 65%",
+    "disponible": true
+  },
+  "18": {
+    "nombre": "MELATONINA",
+    "presentacion": "Comprimido 3mg",
+    "disponible": true
+  },
+  "19": {
+    "nombre": "METAMIZOL (Sódico)",
+    "presentacion": "Comprimido 300mg",
+    "disponible": true
+  },
+  "20": {
+    "nombre": "METAMIZOL (Sódico)",
+    "presentacion": "Solución inyectable 0,5g/mL",
+    "disponible": true
+  },
+  "21": {
+    "nombre": "METOCLOPRAMIDA",
+    "presentacion": "Comprimido 10mg",
+    "disponible": true
+  },
+  "22": {
+    "nombre": "METOCLOPRAMIDA",
+    "presentacion": "Solución inyectable 10 mg/2 mL",
+    "disponible": true
+  },
+  "23": {
+    "nombre": "MIDAZOLAM",
+    "presentacion": "Solución inyectable 5mg/mL",
+    "disponible": true
+  },
+  "24": {
+    "nombre": "MIRTAZAPINA",
+    "presentacion": "Comprimido 15 y/o 30mg",
+    "disponible": true
+  },
+  "25": {
+    "nombre": "MORFINA",
+    "presentacion": "Solución inyectable 10mg/mL",
+    "disponible": true
+  },
+  "26": {
+    "nombre": "MORFINA",
+    "presentacion": "Solucion gotas 20 mg/ml",
+    "disponible": true
+  },
+  "27": {
+    "nombre": "MORFINA",
+    "presentacion": "Comprimido 30 mg Liberación Prolongada",
+    "disponible": true
+  },
+  "28": {
+    "nombre": "NISTATINA",
+    "presentacion": "Suspensión oral 100.000 UI/mL",
+    "disponible": true
+  },
+  "29": {
+    "nombre": "OMEPRAZOL",
+    "presentacion": "Cápsula c/gránulos c/recubrimiento entérico 20mg",
+    "disponible": true
+  },
+  "30": {
+    "nombre": "ONDASENTRON",
+    "presentacion": "Comprimidos 4 y/o 8 mg",
+    "disponible": true
+  },
+  "31": {
+    "nombre": "ONDASENTRON",
+    "presentacion": "ampollas 4 mg /2 ml y/o 8 mg/4 mL",
+    "disponible": true
+  },
+  "32": {
+    "nombre": "PICOSULFATO DE SODIO",
+    "presentacion": "Frasco gota 7,5 mg/ml",
+    "disponible": false
+  },
+  "33": {
+    "nombre": "POLIETILENGLICOL (PEG)",
+    "presentacion": "Polvo para suspensión oral",
+    "disponible": true
+  },
+  "34": {
+    "nombre": "PREGABALINA",
+    "presentacion": "Comprimido 75 mg",
+    "disponible": true
+  },
+  "35": {
+    "nombre": "QUETIAPINA*",
+    "presentacion": "Comprimido 25mg",
+    "disponible": true
+  },
+  "36": {
+    "nombre": "QUETIAPINA*",
+    "presentacion": "Comprimido 100mg",
+    "disponible": true
+  },
+  "37": {
+    "nombre": "RISPERIDONA*",
+    "presentacion": "Comprimido 1mg y/o 3mg",
+    "disponible": true
+  },
+  "38": {
+    "nombre": "RISPERIDONA*",
+    "presentacion": "Frasco gotas 1mg/ml",
+    "disponible": true
+  },
+  "39": {
+    "nombre": "SERTRALINA",
+    "presentacion": "Comprimido 50mg",
+    "disponible": true
+  },
+  "40": {
+    "nombre": "TRAMADOL (Clorhidrato)",
+    "presentacion": "Comprimido 50mg",
+    "disponible": true
+  },
+  "41": {
+    "nombre": "TRAMADOL (Clorhidrato)",
+    "presentacion": "Solución oral para gotas 100mg/mL",
+    "disponible": true
+  },
+  "42": {
+    "nombre": "TRAMADOL (Clorhidrato)",
+    "presentacion": "Comprimido liberación prolongada 100 mg",
+    "disponible": true
+  },
+  "43": {
+    "nombre": "TRAMADOL / PARACETAMOL",
+    "presentacion": "Comprimido 325/37.5 mg",
+    "disponible": true
+  },
+  "44": {
+    "nombre": "ZOPICLONA",
+    "presentacion": "Comprimido 7,5 mg",
+    "disponible": true
+  }
+}
