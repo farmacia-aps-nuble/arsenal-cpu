@@ -725,7 +725,7 @@
   },
   {
     "id": 35,
-    "nombre": "QUETIAPINA*",
+    "nombre": "QUETIAPINA",
     "presentacion": "Comprimido 25mg",
     "clasificacion": "Sistema nervioso y músculo estriado",
     "sintomas": [
@@ -747,7 +747,7 @@
   },
   {
     "id": 36,
-    "nombre": "QUETIAPINA*",
+    "nombre": "QUETIAPINA",
     "presentacion": "Comprimido 100mg",
     "clasificacion": "Sistema nervioso y músculo estriado",
     "sintomas": [
@@ -766,7 +766,7 @@
   },
   {
     "id": 37,
-    "nombre": "RISPERIDONA*",
+    "nombre": "RISPERIDONA",
     "presentacion": "Comprimido 1mg y/o 3mg",
     "clasificacion": "Sistema nervioso y músculo estriado",
     "sintomas": [
@@ -786,7 +786,7 @@
   },
   {
     "id": 38,
-    "nombre": "RISPERIDONA*",
+    "nombre": "RISPERIDONA",
     "presentacion": "Frasco gotas 1mg/ml",
     "clasificacion": "Sistema nervioso y músculo estriado",
     "sintomas": [
