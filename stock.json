@@ -1,7 +1,8 @@
 {
+  "_actualizado": "2026-06-03",
   "1": {
     "nombre": "AMITRIPTILINA (Clorhidrato)",
-    "presentacion": "Comprimido 25mg",
+    "presentacion": "Comprimido 25 mg",
     "disponible": true
   },
   "2": {
@@ -11,12 +12,12 @@
   },
   "3": {
     "nombre": "CELECOXIB",
-    "presentacion": "Comprimido 200mg",
+    "presentacion": "Comprimido 200 mg",
     "disponible": true
   },
   "4": {
     "nombre": "CLORPROMAZINA (Clorhidrato)",
-    "presentacion": "Comprimido 100mg",
+    "presentacion": "Comprimido 100 mg",
     "disponible": true
   },
   "5": {
@@ -31,7 +32,7 @@
   },
   "7": {
     "nombre": "DOMPERIDONA",
-    "presentacion": "Solución oral para gotas 10mg/mL",
+    "presentacion": "Solución oral para gotas 10 mg/mL",
     "disponible": true
   },
   "8": {
@@ -56,27 +57,12 @@
   },
   "12": {
     "nombre": "FUROSEMIDA",
-    "presentacion": "Solución inyectable 20mg/mL",
+    "presentacion": "Solución inyectable 20 mg/mL",
     "disponible": true
   },
   "13": {
     "nombre": "HALOPERIDOL (Decanoato)",
-    "presentacion": "Comprimido 1mg y/o 5mg",
-    "disponible": true
-  },
-  "14": {
-    "nombre": "HALOPERIDOL (Decanoato)",
-    "presentacion": "Solución inyectable 5mg/mL",
-    "disponible": true
-  },
-  "15": {
-    "nombre": "KETOROLACO",
-    "presentacion": "Solución inyectable 30 mg/mL",
-    "disponible": true
-  },
-  "16": {
-    "nombre": "KETOROLACO",
-    "presentacion": "Comprimido 10 mg y/o 30mg",
+    "presentacion": "Comprimido 1 mg",
     "disponible": true
   },
   "17": {
@@ -86,22 +72,22 @@
   },
   "18": {
     "nombre": "MELATONINA",
-    "presentacion": "Comprimido 3mg",
+    "presentacion": "Comprimido 3 mg",
     "disponible": true
   },
   "19": {
     "nombre": "METAMIZOL (Sódico)",
-    "presentacion": "Comprimido 300mg",
+    "presentacion": "Comprimido 300 mg",
     "disponible": true
   },
   "20": {
     "nombre": "METAMIZOL (Sódico)",
-    "presentacion": "Solución inyectable 0,5g/mL",
+    "presentacion": "Solución inyectable 0,5 g/mL",
     "disponible": true
   },
   "21": {
     "nombre": "METOCLOPRAMIDA",
-    "presentacion": "Comprimido 10mg",
+    "presentacion": "Comprimido 10 mg",
     "disponible": true
   },
   "22": {
@@ -111,22 +97,22 @@
   },
   "23": {
     "nombre": "MIDAZOLAM",
-    "presentacion": "Solución inyectable 5mg/mL",
+    "presentacion": "Solución inyectable 5 mg/mL",
     "disponible": true
   },
   "24": {
     "nombre": "MIRTAZAPINA",
-    "presentacion": "Comprimido 15 y/o 30mg",
+    "presentacion": "Comprimido 30 mg",
     "disponible": true
   },
   "25": {
     "nombre": "MORFINA",
-    "presentacion": "Solución inyectable 10mg/mL",
+    "presentacion": "Solución inyectable 10 mg/mL",
     "disponible": true
   },
   "26": {
     "nombre": "MORFINA",
-    "presentacion": "Solucion gotas 20 mg/ml",
+    "presentacion": "Solución gotas 20 mg/mL",
     "disponible": true
   },
   "27": {
@@ -141,7 +127,7 @@
   },
   "29": {
     "nombre": "OMEPRAZOL",
-    "presentacion": "Cápsula c/gránulos c/recubrimiento entérico 20mg",
+    "presentacion": "Cápsula c/gránulos c/recubrimiento entérico 20 mg",
     "disponible": true
   },
   "30": {
@@ -171,37 +157,37 @@
   },
   "35": {
     "nombre": "QUETIAPINA",
-    "presentacion": "Comprimido 25mg",
+    "presentacion": "Comprimido 25 mg",
     "disponible": true
   },
   "36": {
     "nombre": "QUETIAPINA",
-    "presentacion": "Comprimido 100mg",
+    "presentacion": "Comprimido 100 mg",
     "disponible": true
   },
   "37": {
     "nombre": "RISPERIDONA",
-    "presentacion": "Comprimido 1mg y/o 3mg",
+    "presentacion": "Comprimido 1 mg",
     "disponible": true
   },
   "38": {
     "nombre": "RISPERIDONA",
-    "presentacion": "Frasco gotas 1mg/ml",
+    "presentacion": "Frasco gotas 1 mg/ml",
     "disponible": true
   },
   "39": {
     "nombre": "SERTRALINA",
-    "presentacion": "Comprimido 50mg",
+    "presentacion": "Comprimido 50 mg",
     "disponible": true
   },
   "40": {
     "nombre": "TRAMADOL (Clorhidrato)",
-    "presentacion": "Comprimido 50mg",
+    "presentacion": "Comprimido 50 mg",
     "disponible": true
   },
   "41": {
     "nombre": "TRAMADOL (Clorhidrato)",
-    "presentacion": "Solución oral para gotas 100mg/mL",
+    "presentacion": "Solución oral para gotas 100 mg/mL",
     "disponible": true
   },
   "42": {
@@ -217,6 +203,21 @@
   "44": {
     "nombre": "ZOPICLONA",
     "presentacion": "Comprimido 7,5 mg",
+    "disponible": true
+  },
+  "16": {
+    "nombre": "KETOROLACO",
+    "presentacion": "Comprimido 10 mg",
+    "disponible": true
+  },
+  "14": {
+    "nombre": "HALOPERIDOL (Decanoato)",
+    "presentacion": "Solución inyectable 5 mg/mL",
+    "disponible": true
+  },
+  "15": {
+    "nombre": "KETOROLACO",
+    "presentacion": "Solución inyectable 30 mg/mL",
     "disponible": true
   }
 }
