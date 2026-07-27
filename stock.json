@@ -143,7 +143,7 @@
   "32": {
     "nombre": "PICOSULFATO DE SODIO",
     "presentacion": "Frasco gota 7,5 mg/ml",
-    "disponible": false
+    "disponible": true
   },
   "33": {
     "nombre": "POLIETILENGLICOL (PEG)",
