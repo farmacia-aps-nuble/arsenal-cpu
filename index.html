@@ -340,11 +340,65 @@ footer b{color:#fff;font-weight:600}
 .nec-pg li{font-size:11.5px;color:var(--tinta-soft);line-height:1.4}
 .nec-notas{margin-top:11px;font-size:11px;color:var(--gris);line-height:1.55;border-top:1px solid var(--line);padding-top:9px}
 
-.nec-res{margin-top:18px;border-radius:var(--radius);padding:16px 18px;border:1px solid var(--line-strong);background:#fff}
-.nec-res.pos{border-color:var(--azul-borde);background:var(--azul-claro)}
-.nec-res-t{font-family:'Source Serif 4',Georgia,serif;font-size:20px;font-weight:700;color:var(--azul-prof);line-height:1.15}
-.nec-res-s{font-size:13px;color:var(--tinta-soft);margin-top:6px;line-height:1.55}
-.nec-res-s b{color:var(--tinta)}
+/* ── Resultado NECPAL-Chile, en bloque destacado ── */
+.nec-res{margin-top:18px;border-radius:var(--radius);border:1px solid var(--line-strong);background:var(--surface);overflow:hidden}
+.nec-res.vacio{padding:16px 18px}
+.nec-vtop{display:flex;align-items:center;gap:15px;padding:17px 19px;flex-wrap:wrap}
+.nec-res.pos .nec-vtop{background:var(--azul-claro);border-bottom:1px solid var(--azul-borde)}
+.nec-res.neg .nec-vtop{background:var(--ok-soft);border-bottom:1px solid var(--ok-bd)}
+.nec-vico{flex:none;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:#fff}
+.nec-res.pos .nec-vico{background:var(--azul)}
+.nec-res.neg .nec-vico{background:var(--ok)}
+.nec-vtxt{flex:1 1 200px;min-width:0}
+.nec-vtitle{font-family:'Source Serif 4',Georgia,serif;font-size:24px;font-weight:700;line-height:1.1;letter-spacing:-.01em}
+.nec-res.pos .nec-vtitle{color:var(--azul-prof)}
+.nec-res.neg .nec-vtitle{color:var(--ok)}
+.nec-vsub{font-size:13px;font-weight:600;color:var(--tinta-soft);margin-top:3px}
+.nec-vcount{flex:none;text-align:center;padding-left:15px;border-left:1px solid var(--azul-borde);line-height:1.05}
+.nec-vcount b{display:block;font-family:'Source Serif 4',Georgia,serif;font-size:32px;font-weight:700;color:var(--azul-prof)}
+.nec-vcount span{font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--tinta-soft);font-weight:700}
+.nec-vbody{padding:14px 19px 16px}
+.nec-chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:11px}
+.nec-chip{font-size:12px;font-weight:600;background:var(--azul-claro);color:var(--azul-osc);
+  border:1px solid var(--azul-borde);border-radius:999px;padding:4px 11px}
+.nec-chip i{font-style:normal;opacity:.6;margin-right:5px;font-weight:700}
+@media(max-width:520px){
+  .nec-vtitle{font-size:20px}
+  .nec-vcount{padding-left:0;border-left:0;text-align:left}
+  .nec-vcount b{font-size:26px;display:inline;margin-right:6px}
+  .nec-vcount span{display:inline}
+}
+
+/* ── Progresión de estadios del NECPAL 4.0 ── */
+.est-head{display:flex;align-items:baseline;gap:11px;flex-wrap:wrap}
+.est-head b{font-family:'Source Serif 4',Georgia,serif;font-size:21px;font-weight:700;color:var(--azul-prof)}
+.est-head span{font-size:12.5px;color:var(--tinta-soft);font-weight:600}
+.est-bar{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:14px}
+@media(max-width:560px){.est-bar{grid-template-columns:1fr;gap:8px}}
+.est-seg{border:1.5px solid var(--line);border-radius:8px;padding:12px 13px;background:var(--surface);
+  transition:all .2s;position:relative}
+.est-seg .est-n{display:block;font-family:'Source Serif 4',Georgia,serif;font-weight:700;font-size:15px;line-height:1.15}
+.est-seg .est-p{display:block;font-size:11.5px;color:var(--tinta-soft);margin-top:3px;font-weight:600}
+.est-seg .est-m{display:block;font-size:12px;color:var(--tinta-soft);margin-top:8px;padding-top:8px;
+  border-top:1px dashed var(--line-strong)}
+.est-seg .est-m b{font-size:14.5px;font-family:'Source Serif 4',Georgia,serif;color:var(--tinta)}
+.est-seg .est-n{color:var(--gris)}
+.est-seg.e1.on .est-n{color:var(--ok)}
+.est-seg.e2.on .est-n{color:var(--azul-prof)}
+.est-seg.e3.on .est-n{color:var(--out)}
+.est-seg.on{box-shadow:var(--shadow)}
+.est-seg.e1.on{border-color:var(--ok);background:var(--ok-soft)}
+.est-seg.e2.on{border-color:var(--azul);background:var(--azul-claro)}
+.est-seg.e3.on{border-color:var(--out);background:var(--out-soft)}
+.est-aqui{position:absolute;top:-10px;right:11px;font-size:9.5px;font-weight:700;text-transform:uppercase;
+  letter-spacing:.06em;color:#fff;padding:3px 9px;border-radius:999px;display:none}
+.est-seg.on .est-aqui{display:block}
+.est-seg.e1.on .est-aqui{background:var(--ok)}
+.est-seg.e2.on .est-aqui{background:var(--azul)}
+.est-seg.e3.on .est-aqui{background:var(--out)}
+.est-nota{font-size:12.5px;color:var(--tinta-soft);line-height:1.5;margin-top:14px;
+  border-top:1px solid var(--line);padding-top:11px}
+.est-nota b{color:var(--tinta)}
 
 .nec40-grid{display:flex;flex-direction:column;gap:8px;margin-top:10px}
 .nec40-it{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:6px;
@@ -356,10 +410,9 @@ footer b{color:#fff;font-weight:600}
 .nec40-it.on .mk{background:var(--azul);border-color:var(--azul);color:#fff}
 .nec40-it b{color:var(--azul-prof)}
 .nec40-it small{display:block;color:var(--tinta-soft);font-size:11.5px;margin-top:2px}
-.nec40-res{margin-top:15px;border:1px solid var(--line-strong);border-left:4px solid var(--azul);
-  background:#fff;border-radius:6px;padding:14px 16px}
-.nec40-est{font-family:'Source Serif 4',Georgia,serif;font-size:18px;font-weight:700;color:var(--azul-prof)}
-.nec40-med{font-size:13px;color:var(--tinta-soft);margin-top:5px;line-height:1.5}
+.nec40-res{margin-top:16px;border:1px solid var(--line-strong);background:var(--surface);
+  border-radius:var(--radius);padding:15px 17px}
+.nec40-med{font-size:13px;color:var(--tinta-soft);line-height:1.5}
 
 /* ═══════════════════════════════════════════════════════════
    Modo noche
@@ -698,7 +751,20 @@ try{ if(matchMedia('(prefers-color-scheme: dark)').matches) document.documentEle
           <button type="button" id="necSi">Sí, me sorprendería<small>Pregunta sorpresa negativa (PS−) · el instrumento termina aquí</small></button>
         </div>
         <div class="nec-neg" id="necNeg">
-          <b>NECPAL negativo.</b> Con la pregunta sorpresa negativa el instrumento no se completa y la persona no queda identificada como con necesidades de atención paliativa en este momento. No descarta necesidades de otro tipo ni es definitivo: conviene reevaluar ante cambios clínicos y actualizar el instrumento de forma periódica.
+          <div class="nec-res neg" style="margin-top:0">
+            <div class="nec-vtop">
+              <span class="nec-vico">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/></svg>
+              </span>
+              <span class="nec-vtxt">
+                <span class="nec-vtitle">NECPAL negativo</span>
+                <span class="nec-vsub">Sin necesidades de atención paliativa identificadas en este momento</span>
+              </span>
+            </div>
+            <div class="nec-vbody">
+              <div class="nec-res-s">Con la pregunta sorpresa negativa el instrumento no se completa. Esto <b>no descarta necesidades de otro tipo ni es definitivo</b>: conviene reevaluar ante cambios clínicos y actualizar el instrumento de forma periódica.</div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -1281,15 +1347,30 @@ function necPintar(){
 
 function necCalcular(){
   const marcados=NEC_PARAMS.filter(p=>necOn[p.n]);
-  if(necPS!==true){ necRes.className='nec-res'; necRes.innerHTML=''; return; }
+  if(necPS!==true){ necRes.className='nec-res vacio'; necRes.innerHTML=''; return; }
+
   if(marcados.length===0){
-    necRes.className='nec-res';
+    necRes.className='nec-res vacio';
     necRes.innerHTML=`<div class="nec-res-t">Aún sin parámetros marcados</div>
       <div class="nec-res-s">Con la pregunta sorpresa positiva, basta con <b>un</b> parámetro para que el NECPAL resulte positivo. Si tras revisar los nueve no hay ninguno presente, el instrumento es <b>negativo</b>.</div>`;
   } else {
+    const chips=marcados.map(p=>`<span class="nec-chip"><i>${p.n}</i>${p.t}</span>`).join('');
     necRes.className='nec-res pos';
-    necRes.innerHTML=`<div class="nec-res-t">NECPAL positivo</div>
-      <div class="nec-res-s">Pregunta sorpresa positiva más <b>${marcados.length} de 9 parámetros</b>: ${marcados.map(p=>p.n+'. '+p.t.toLowerCase()).join(', ')}. La persona <b>requiere atención paliativa</b> y corresponde iniciar la evaluación multidimensional de necesidades y el plan de cuidados.</div>`;
+    necRes.innerHTML=`
+      <div class="nec-vtop">
+        <span class="nec-vico">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6 9 17l-5-5"/></svg>
+        </span>
+        <span class="nec-vtxt">
+          <span class="nec-vtitle">NECPAL positivo</span>
+          <span class="nec-vsub">La persona requiere atención paliativa</span>
+        </span>
+        <span class="nec-vcount"><b>${marcados.length}</b><span>de 9 parámetros</span></span>
+      </div>
+      <div class="nec-vbody">
+        <div class="nec-chips">${chips}</div>
+        <div class="nec-res-s">Pregunta sorpresa positiva más al menos un parámetro. Corresponde iniciar la <b>evaluación multidimensional de necesidades</b> y elaborar el plan de cuidados.</div>
+      </div>`;
   }
   necSyncTipEsas();
 }
@@ -1408,18 +1489,36 @@ nec40Grid.innerHTML=NEC40.map(p=>`
   <div class="nec40-it" data-k="${p.k}"><span class="mk">✓</span>
     <span><b>${p.t}</b><small>${p.d}</small></span></div>`).join('');
 
+/* Los tres estadios se muestran siempre, para que se vea la progresión
+   completa y dónde cae la persona, no solo el resultado aislado. */
+const EST=[
+  {k:1, cls:'e1', n:'Estadio I',   p:'1–2 parámetros', med:'38 meses'},
+  {k:2, cls:'e2', n:'Estadio II',  p:'3–4 parámetros', med:'17,2 meses'},
+  {k:3, cls:'e3', n:'Estadio III', p:'5–6 parámetros', med:'3,6 meses'}
+];
+
 function nec40Pintar(){
   NEC40.forEach(p=>nec40Grid.querySelector(`[data-k="${p.k}"]`).classList.toggle('on',!!nec40On[p.k]));
   const n=NEC40.filter(p=>nec40On[p.k]).length;
-  let est,med;
-  if(n===0){ est=null; }
-  else if(n<=2){ est='Estadio I'; med='38 meses'; }
-  else if(n<=4){ est='Estadio II'; med='17,2 meses'; }
-  else { est='Estadio III'; med='3,6 meses'; }
-  nec40Res.innerHTML = est
-    ? `<div class="nec40-est">${est} · ${n} de 6 parámetros</div>
-       <div class="nec40-med">Mediana de supervivencia observada en la cohorte de validación: <b>${med}</b>. Es un valor <b>poblacional</b>: describe al grupo con ese número de parámetros, no a esta persona en particular.</div>`
-    : `<div class="nec40-med">Marque los parámetros presentes para obtener el estadio evolutivo. Requiere además pregunta sorpresa positiva.</div>`;
+  const actual = n===0 ? 0 : (n<=2 ? 1 : (n<=4 ? 2 : 3));
+
+  if(!actual){
+    nec40Res.innerHTML='<div class="nec40-med">Marque los parámetros presentes para ubicar el estadio evolutivo. Requiere además pregunta sorpresa positiva.</div>';
+    return;
+  }
+  const e=EST.find(x=>x.k===actual);
+  const segs=EST.map(x=>`
+    <div class="est-seg ${x.cls}${x.k===actual?' on':''}">
+      <span class="est-aqui">Aquí</span>
+      <span class="est-n">${x.n}</span>
+      <span class="est-p">${x.p}</span>
+      <span class="est-m">Mediana <b>${x.med}</b></span>
+    </div>`).join('');
+
+  nec40Res.innerHTML=`
+    <div class="est-head"><b>${e.n}</b><span>${n} de 6 parámetros presentes</span></div>
+    <div class="est-bar">${segs}</div>
+    <div class="est-nota"><b>La mediana es un valor poblacional.</b> Describe al grupo de personas con ese número de parámetros en la cohorte de validación, no a esta persona en particular. Se usa para orientar la planificación de cuidados y la conversación con la familia, nunca como un pronóstico individual.</div>`;
 }
 
 nec40Grid.addEventListener('click',e=>{
