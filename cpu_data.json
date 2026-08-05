@@ -30,10 +30,12 @@
       "Dolor"
     ],
     "via": "Transdérmica",
-    "dosis": "Naïve: parche 5 µg/h cada 7 días, o 35 µg/h c/72–96 h según presentación. Reevaluar analgesia a 24–72 h; cambios de dosis con intervalos ≥72 h.",
+    "dosis": "No se recomienda iniciar en paciente sin opioide previo. Titular primero con un opioide de liberación inmediata (morfina oral o SC) hasta lograr una dosis diaria estable y recién entonces convertir al parche. El parche disponible en el arsenal (35 µg/h) equivale aproximadamente a 60–70 mg de morfina oral al día, por lo que no es una dosis de inicio. Recambio cada 72–96 h según indicación del producto, siempre en sitio distinto. Ajustes de dosis con intervalos ≥72 h, evaluando la respuesta a las 24–72 h de cada cambio.",
     "notas": [
       "Opioide fuerte agonista parcial μ de alta afinidad; opción preferente en insuficiencia renal avanzada y en antecedente de trastorno por uso de opioides.",
-      "Inicio de acción lento: mantener analgesia previa al iniciar. No iniciar el parche en dolor agudo, inestable o no controlado.",
+      "El parche es una formulación de liberación prolongada: sirve para mantener una analgesia ya lograda, no para titular. La titulación se hace con opioide de acción corta.",
+      "Inicio de acción lento: mantener la analgesia previa durante las primeras 12–24 h tras aplicar el parche. No iniciar en dolor agudo, inestable o no controlado.",
+      "Si la dosis diaria estabilizada resulta menor que el equivalente del parche disponible, no forzar la rotación: mantener el opioide oral o buscar una presentación de menor potencia. Los parches no deben fraccionarse.",
       "Segura en insuficiencia renal (TFG <30) sin ajuste significativo; menos sedación y estreñimiento que morfina.",
       "Para dolor irruptivo son válidos los rescates con morfina de acción rápida (no se ha observado antagonismo clínico relevante; se evita usar ambos a horario).",
       "Al suspender, el efecto persiste 12–24 h por disociación lenta del receptor. Equivalencia referencial: 17,5–35 µg/h ≈ 30–60 mg de morfina oral/día (no extrapolar linealmente)."
